@@ -39,9 +39,14 @@
          aside {
             flex: 1;
             background-color: #dcd21c;
-            padding: 20px;
+            padding: 30px;
             border: 2px solid #a5b1c2;
             height: fit-content;
         }
-        footer { background-color: #251f1f; color: white; text-align: center; padding: 1rem; margin-top: 20px; }
+        footer { background-color: #502c2c; color: white; text-align: center; padding: 5px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            left: 0;
+        } 
         
