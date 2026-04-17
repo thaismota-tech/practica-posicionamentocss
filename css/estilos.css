@@ -21,5 +21,6 @@
             padding: 0;
             gap: 20px;
         }
+        nav a { color:white}
         section { flex: 3; padding-right: 20px; }
         footer { background-color: #251f1f; color: white; text-align: center; padding: 1rem; margin-top: 20px; }
