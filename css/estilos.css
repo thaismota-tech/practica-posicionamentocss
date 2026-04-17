@@ -22,14 +22,15 @@
             gap: 20px;
         }
         nav a { color:white}
-        section { flex: 3; padding-right: 20px; }
-        display: flex;
+        .main-container {
+            display: flex;
             padding: 20px;
             gap: 20px;
-            min-height: 150vh;
+            min-height: 150vh; /* Altura extra para probar el scroll */
+        }
         section {
             flex: 3;
-            background-color: #ecf0f1;
+            background-color: #502c2c;
             padding: 20px;
             position: relative; 
             top: 0; 
@@ -40,7 +41,7 @@
             background-color: #c54545;
             padding: 20px;
             border: 2px solid #a5b1c2;
-            height: fit-content; /* Se ajusta a su contenido */
+            height: fit-content;
         }
         footer { background-color: #251f1f; color: white; text-align: center; padding: 1rem; margin-top: 20px; }
         
