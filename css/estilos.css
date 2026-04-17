@@ -35,5 +35,12 @@
             top: 0; 
             left: 0;
         }
+         aside {
+            flex: 1;
+            background-color: #c54545;
+            padding: 20px;
+            border: 2px solid #a5b1c2;
+            height: fit-content; /* Se ajusta a su contenido */
+        }
         footer { background-color: #251f1f; color: white; text-align: center; padding: 1rem; margin-top: 20px; }
         
