@@ -42,9 +42,11 @@ header {
          aside {
             flex: 1;
             background-color: #dcd21c;
-            padding: 30px;
+            padding: 25px;
+            border-radius: 8px;
             border: 2px solid #a5b1c2;
             height: fit-content;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1)
         }
         footer { background-color: #502c2c; color: white; text-align: center; padding: 5px;
             position: fixed;
