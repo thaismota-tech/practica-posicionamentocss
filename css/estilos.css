@@ -5,10 +5,16 @@
             padding: 20px;
             text-align: center;
         }
-        nav { background-color: #251f1f; color: white; padding: 0.5rem; }
+        nav {
+            background-color: #502c2c;;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
         nav ul { margin: 0; padding: 0; list-style: none; display: flex; justify-content: center; gap: 15px; }
-        nav a { color: white; text-decoration: none; }
+         nav a = { color: white; text-decoration: none; }
+        }
         .container { display: flex; padding: 20px; }
         section { flex: 3; padding-right: 20px; }
-        aside { flex: 1; background-color: #f4f4f4; padding: 15px; border-left: 1px solid #ccc; }
+        aside { flex: 1; background-color: #090808; padding: 15px; border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
         footer { background-color: #251f1f; color: white; text-align: center; padding: 1rem; margin-top: 20px; }
